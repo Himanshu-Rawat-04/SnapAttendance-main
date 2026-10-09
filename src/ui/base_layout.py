@@ -1,8 +1,8 @@
 import streamlit as st
 
 def style_base_layout():
-        st.markdown("""
-                
+# adfds
+        st.markdown("""     
         <style>
 
         @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
@@ -15,8 +15,6 @@ def style_base_layout():
                 }
 
                 
-                .stApp{
-                background: #5865 !important;}
 
                 .block-container{
                 padding-top:1.5rem !important;
@@ -44,7 +42,7 @@ def style_base_layout():
 
                 button{
                 border-radius: 1.5rem !important;
-                background: #5865F2 !important;
+                background-color: #5865F2 !important;
                 color: white !important;
                 padding: 10px 20px !important;
                 border: none !important;
@@ -53,7 +51,7 @@ def style_base_layout():
 
                 button[kind="secondary"]{
                 border-radius: 1.5rem !important;
-                background: #EB459E !important;
+                background-color: #EB459E !important;
                 color: white !important;
                 padding: 10px 20px !important;
                 border: none !important;
@@ -62,7 +60,7 @@ def style_base_layout():
 
                  button[kind="tertiary"]{
                 border-radius: 1.5rem !important;
-                background: black !important;
+                background-color: black !important;
                 color: white !important;
                 padding: 10px 20px !important;
                 border: none !important;
@@ -82,7 +80,7 @@ def style_background_home():
                 <style>
 
                 .stApp{
-                background: #5865F4 !important;}
+                background-color: #5865F4 !important;}
 
                 .stApp div[data-testid="stColumn"]{
                 background-color: #E0E3FF !important;
@@ -97,13 +95,13 @@ def style_background_home():
 def style_background_dashbord():
         st.markdown("""
                 
-        <style>
+                <style>
 
-        .stApp{
-        background: #E0E3FF
-        }
+                        .stApp{
+                        background-color: #E0E3FF !important;
+                        }
 
-              
+                
 
-        </style>
-                """, unsafe_allow_html=True)
+                </style>
+                        """, unsafe_allow_html=True)

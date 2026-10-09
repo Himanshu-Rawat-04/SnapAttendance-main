@@ -1,3 +1,4 @@
+streamlit
 # utilities
 numpy
 pandas
@@ -19,4 +20,7 @@ segno
 # for image pre processing
 pillow
 
-streamlit
+
+
+librosa
+resemblyzer
