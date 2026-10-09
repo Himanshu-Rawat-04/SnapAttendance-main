@@ -6,8 +6,7 @@ def style_base_layout():
         <style>
 
         @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@598&display=swap');
-
+        @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@2004&display=swap');
                 /* hide the top header*/
 
                 #MainMenu, footer, header {
@@ -25,6 +24,8 @@ def style_base_layout():
                 font-size: 3.5rem !important;
                 line-height: 0.9 !important;
                 margin-bottom:0rem !important;
+                font-weight: 400 !important;
+                font-variation-settings: "YEAR" 2000;
                 }
                         
                 h2 {
@@ -34,6 +35,8 @@ def style_base_layout():
                 line-height: 0.9 !important;
                 margin-bottom:0rem !important;
                 color: #000000 !important;
+                font-weight: 400 !important;
+                font-variation-settings: "YEAR" 2000;
                 }
 
                 h3, h4, p{
