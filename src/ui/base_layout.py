@@ -13,7 +13,7 @@ def style_base_layout():
                 visibility: hidden;
                 }
 
-                
+
 
                 .block-container{
                 padding-top:1.5rem !important;
@@ -103,6 +103,9 @@ def style_background_dashbord():
                         .stApp{
                         background-color: #E0E3FF !important;
                         }
+
+                div[data-testid="stDialog"] [role="dialog"] {
+                background: #F0F0F0 !important;
 
                 
 
